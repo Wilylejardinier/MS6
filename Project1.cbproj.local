@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/06/14 08:11:05.000.312,=C:\Users\fasselin\Documents\Embarcadero\Studio\Projets\File1.cpp</Transaction>
+    <Transaction>2022/06/14 08:11:05.000.300,=C:\Users\fasselin\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2022/06/14 08:11:51.000.805,C:\Users\fasselin\Desktop\MS6\File1.cpp=C:\Users\fasselin\Documents\Embarcadero\Studio\Projets\File1.cpp</Transaction>
+    <Transaction>2022/06/14 08:12:24.000.101,C:\Users\fasselin\Desktop\MS6\Project1PCH1.h=C:\Users\fasselin\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2022/06/14 08:12:25.000.147,C:\Users\fasselin\Desktop\MS6\Project1.cbproj=C:\Users\fasselin\Documents\Embarcadero\Studio\Projets\Project1.cbproj</Transaction>
+    <Transaction>2022/06/14 08:13:57.000.030,=C:\Users\fasselin\Desktop\MS6\Unit1.cpp</Transaction>
+    <Transaction>2022/06/14 08:14:41.000.378,C:\Users\fasselin\Desktop\MS6\Unit1.h=C:\Users\fasselin\Desktop\MS6\echiquier.h</Transaction>
+    <Transaction>2022/06/14 08:14:41.000.378,C:\Users\fasselin\Desktop\MS6\Unit1.cpp=C:\Users\fasselin\Desktop\MS6\echiquier.cpp</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="echiquier.cpp"/>
+    <File Path="echiquier.cpp"/>
+    <File Path="echiquier.h"/>
+    <File Path="File1.cpp"/>
+    <File Path="Project1PCH1.h"/>
+  </ProjectSortOrder>
+</BorlandProject>
