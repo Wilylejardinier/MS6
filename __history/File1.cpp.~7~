@@ -27,8 +27,11 @@ while (true)
 
 		string s = monEchiquier.VisualiserEchiquier();
 		cout << s;
-		cin>>idep>>jdep>>iarr>>jarr;
-		char piece = monEchiquier.LireCaseEchiquier(idep, jdep);
+		cin>>idep;
+		cin>>jdep;
+		cin>>iarr;
+		cin>>jarr;
+		monEchiquier.LireCaseEchiquier(idep, jdep);
 	}
 	return 0;
 }
