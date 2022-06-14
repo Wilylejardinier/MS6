@@ -26,8 +26,24 @@ using namespace std;
 	   tabEchiquier[1][j]= 'p';
 	   tabEchiquier[7][j]= 'p';
 	 }
-	  for (int j=2 j<=5; j++)
+	  for (i=2 i<=5; i++)
 	  {
-
-      }
+	   for (int j=0;  j<=7; j++)
+	   {
+		tabEchiquier[i][j]= '';
+	   }
+	 }
  }
+
+ string Echiquier::VisualiserEchiquier()
+ {
+	 string str;
+	 int j,i;
+	 str="";
+	 for (i=0; i < 8; i++) {
+		 for (j=0; j < 8; j++) {
+		  str=str+tabEchiquier[i][j];
+		 }
+		 str=str+"\n";
+	 }
+ }return str;

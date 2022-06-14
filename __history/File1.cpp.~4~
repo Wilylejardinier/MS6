@@ -17,11 +17,10 @@ using namespace std;
 
  int _tmain(int argc, _TCHAR* argv[]) 
 {
-		int idep;
-		int jdep;
-		int iarr;
-		int jarr;
 Echiquier monEchiquier;
+string s=monEchiquier.VisualiserEchiquier();
+cout<< s;
+cin.get();
 while (true)
 	{
 		monEchiquier.VisualiserEchiquier();
@@ -29,7 +28,7 @@ while (true)
 		cin>>jdep;
 		cin>>iarr;
 		cin>>jarr;
-		monEchiquier.LireCaseEchiquier(idep, jdep);
+		monEchiquier.LireCaseEchiquier(idep, jdep)
 	}
 	return 0;
 }

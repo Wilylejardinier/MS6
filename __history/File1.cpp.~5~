@@ -29,7 +29,7 @@ while (true)
 		cin>>jdep;
 		cin>>iarr;
 		cin>>jarr;
-		monEchiquier.LireCaseEchiquier(idep, jdep);
+		monEchiquier.LireCaseEchiquier(idep, jdep)
 	}
 	return 0;
 }

@@ -2,22 +2,22 @@
 
 #ifndef echiquierH
 #define echiquierH
-#include <string>
+#include <string.h>
 //---------------------------------------------------------------------------
 #endif
-using namespace std;
+
 
 
 class Echiquier
 {
  private:
 
- char tabEchiquier[8][8];
+ char [8][8] tabEchiquier;
  int demiCoup;
 
  public :
 
- Echequier();
+ Echequier()
  char LireCaseEchiquier(int ligne,int colonne);
  void InitialiserEchiquier();
  string VisualiserEchiquier();

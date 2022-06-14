@@ -1,9 +1,10 @@
 //---------------------------------------------------------------------------
 
 #pragma hdrstop
-#include  <string>
+#include  <string.h>
 #include  <tchar.h>
 #include  <iostream>
+#include  <cstring>
 #include "echiquier.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
@@ -38,21 +39,11 @@ using namespace std;
  {
 	 string str;
 	 int j,i;
-	 str="";
+	 str=" ";
 	 for (i=0; i < 8; i++) {
 		 for (j=0; j < 8; j++) {
 		  str=str+tabEchiquier[i][j];
 		 }
 		 str=str+"\n";
 	 }
-	  return str;
- }
-
- char Echiquier::LireCaseEchiquier(int ligne,int colonne)
- {
-	 return tabEchiquier[ligne][colonne]=cPiece;
- }
- void Echiquier::ModifierCaseEchiquier(char cPiece, int ligne, int colonne)
- {
-   tabEchiquier[ligne][colonne]=cPiece;
- }
+ }return str;

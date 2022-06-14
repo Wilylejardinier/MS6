@@ -11,25 +11,12 @@
 #include  <tchar.h>
 #include  <iostream>
 #include <stdio.h>
-#include "echiquier.h"
 
 using namespace std;
 
  int _tmain(int argc, _TCHAR* argv[]) 
 {
-		int idep;
-		int jdep;
-		int iarr;
-		int jarr;
 Echiquier monEchiquier;
-while (true)
-	{
-		monEchiquier.VisualiserEchiquier();
-		cin>>idep;
-		cin>>jdep;
-		cin>>iarr;
-		cin>>jarr;
-		monEchiquier.LireCaseEchiquier(idep, jdep);
-	}
+string s=monEchiquier.
 	return 0;
 }
