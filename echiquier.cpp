@@ -50,7 +50,7 @@ using namespace std;
 
  char Echiquier::LireCaseEchiquier(int ligne,int colonne)
  {
-	 return tabEchiquier[ligne][colonne]=cPiece;
+	 return tabEchiquier[ligne][colonne];
  }
  void Echiquier::ModifierCaseEchiquier(char cPiece, int ligne, int colonne)
  {
