@@ -24,9 +24,7 @@ using namespace std;
 Echiquier monEchiquier;
 while (true)
 	{
-
-		string s = monEchiquier.VisualiserEchiquier();
-		cout << s;
+		monEchiquier.VisualiserEchiquier();
 		cin>>idep;
 		cin>>jdep;
 		cin>>iarr;

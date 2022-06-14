@@ -23,7 +23,7 @@ using namespace std;
 	 for (int j=0; j < 8; j++)
 	 {
 	   tabEchiquier[1][j]= 'p';
-	   tabEchiquier[7][j]= 'p';
+	   tabEchiquier[6][j]= 'P';
 	 }
 	  for (int i=2; i<=5; i++)
 	  {
@@ -33,7 +33,10 @@ using namespace std;
 	   }
 	 }
  }
-
+ Echiquier::Echiquier()
+ {
+    InitialiserEchiquier();
+ }
  string Echiquier::VisualiserEchiquier()
  {
 	 string str;

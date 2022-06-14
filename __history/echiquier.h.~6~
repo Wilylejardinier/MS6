@@ -17,7 +17,7 @@ class Echiquier
 
  public :
 
- Echiquier();
+ Echequier();
  char LireCaseEchiquier(int ligne,int colonne);
  void InitialiserEchiquier();
  string VisualiserEchiquier();
